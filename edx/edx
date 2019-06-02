@@ -1,0 +1,75 @@
+intro  to Computer science and programming using PYTHON 
+
+week 1:
+
+Intro: what is computation thinking, stages of any tasks done by using programming, computers do basically two things: stores things, performs computation
+		and we need algoriths to performs computation as some tasks are very hard to compute if done using brute force
+		
+Knowledge: There are 2 types of knowledge for computers 1)Imperative knowledge is a recipe.2) Declarative knowledge-- those are statements
+           of fact, statements of truth. Recipes are something we are actually looking for any programs 
+
+Machine: Architechture---memory, ALU, CU(control unit), input and output. whatever we can do in one langulage, should be done in any other langulage as well
+         primitives are basic building blocks of any programs, collection of primitives create base of heigher level of abstraction.
+		 
+Language: syntax(collection of legeal strings), static semantics(syntax wise ok but usuage are not allowed like adding a number to a string),
+		semantics(everything is fine but computer is doing something else then what we want)
+				
+Types: data is represented in objects , programs works on those objects like get out parts of those objects or to do something with that object
+		every object has a type, scaler type object cant be subdevided into other objects like int, float, bool, nonetype...
+		syntax of simple expression --object operator object e.g. 7+8
+variables: its a abstraction for computed value
+comparisons and loop/flow/branching: if condition , nested condition
+
+String type: non-scaler(indexing,meaning we can subdivide it into parts i.e 'string'[0])	concatenation (+ and *) , len(string), index values
+
+input/output : input("string"); --always take input as string, if we need integer then need to use int function.
+                print(arguments) ...if mulitple arguments are there then print is going to add space in b/w them...in case of string
+				concatenation there will be no spaces b/w print output
+control flow: if test return True then block will get executed  loops:  for while condition: if
+Iteration: use the same code multiple time
+Loop characteristics: need a loop variable, which is initialized outside of loop, changes within loop and test for termination
+
+Algorithm:  a way to decide how to run a program---- which uses least amount of processing power(steps) is called optimized algorith
+
+
+week 2:
+
+loops---for , while, 
+approximate solutions: 
+Bisection search: 
+Floats and Fractions: 
+
+
+Functions and decompostion: useful for writing long programs, piece of code to encapsulate some computation  ,,modules, functions and class--reuseable. 
+     achieve abstraction using docsstring and function specification
+function calling: global scope, local scope  http://www.pythontutor.com/
+function keyword argument, specification: specification is a contract b/w implementer of a function and clients who will use it
+Iteration  vs recursion : 
+files and modules: import(import module, from module import *)open a file to write and read(file handler)
+
+Week 3: structured data 
+
+Tuples: ordered, immutable , in a function tuple is used to return more than one values
+list
+dictionary
+testing and debuging
+exceptions
+assertions
+oop
+every instance of an object/class has 3 things: type, internal representation and set of procedures for interaction with that object(method)
+creating a class involves: defining a class name, defining class attributes(data attributes, procedural attributes), expample: list class
+advantages for OOP: bundle data in one class, create abstraction for reuse
+subclass,superclass	
+__init__ method to create instanse for that class
+__str__ method to print data
+
+
+
+ 
+
+
+
+
+
+
+

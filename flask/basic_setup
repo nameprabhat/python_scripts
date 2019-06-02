@@ -1,0 +1,43 @@
+
+Once you are in the server, let's start with an update and upgrade:
+
+sudo apt-get update && sudo apt-get upgrade
+Since we'll be using mysql in this series:
+
+sudo apt-get install apache2 mysql-client mysql-server
+Once you do that, you'll get the start up page for MySQL, where you will need to set your root user for MySQL. This is the specific MySQL root user, not your server root user.
+
+#to search any installed package
+prabhat@ubuntu:/etc/apt/sources.list.d$ apt-cache search mysql-server
+
+
+#Perform a Dry Run of Package Actions
+apt-get install -s package
+
+
+#Install a Specific Package Version from the Repos
+sudo apt-get install package=version
+
+
+
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+Hit enter to add this repository
+
+# to check instlled packages
+
+dpkg -l | grep mysql
+
+sudo apt-get update
+Get python3.6:
+
+sudo apt-get install python3.6 python3.6-dev
+
+
+
+
+
+
+# weblink with all info
+
+https://www.digitalocean.com/community/tutorials/ubuntu-and-debian-package-management-essentials
